@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Samtse College of Education</title>
+  <!-- Page title shown in browser tab -->
+  
+  <style>
+    /* Applies styles to the entire webpage body */
+    body {
+      font-family: "Open Sans"; /* Sets the font family */
+      background-color: #fff;   /* Sets the background to white */
+      color: #333;              /* Sets the text color to a dark grey */
+    }
+
+    /* Topbar styles */
+    .topbar {
+      background: #5888b9;   /* Blue background */
+      color: #fff;           /* White text color */
+      padding: 0.1em;        /* Very small space around content */
+      width: 100%;           /* Full width of the viewport */
+    }
+
+    /* Styles for the SCE logo image */
+    .logo {
+      height: 15vh;          /* Height set to 15% of viewport height */
+      margin-top: -3mm;      /* Moves logo upward (negative margin) */
+    }
+
+    /* Styles for the unordered list inside topbar */
+    .nav-links {
+      list-style: none;      /* Removes bullet points */
+      display: flex;         /* Displays list items side by side */
+      justify-content: center; /* Centers the list horizontally */
+      gap: 2em;              /* Creates space between list items */
+    }
+
+    /* Styles for the anchor (<a>) links inside list items */
+    .nav-links li a {
+      color: white;          /* White text */
+      text-decoration: none; /* Removes underline */
+      font-size: 14px;       /* Small font size */
+    }
+
+    /* Styles the second navigation bar */
+    .main-nav {
+      display: flex; 
+      justify-content: space-around; /* Evenly distributes space */
+      background-color: #fff;        /* White background */
+      padding: 1em 4em 1em 2em;      /* Top 1em, Right 4em, Bottom 1em, Left 2em */
+    }
+
+    /* Each individual navigation section */
+    .nav-section {
+      text-align: center;   /* Centers text horizontally */
+      padding: 1em;         /* Adds space inside the section */
+    }
+
+    /* Styles the clickable link text in nav sections */
+    .nav-section a {
+      display: block;       /* Makes link take full width */
+      color: #000;          /* Black text */
+      text-decoration: none;/* No underline */
+      font-weight: bold;    /* Bold text */
+    }
+
+    /* Styles the small descriptive text under each nav link */
+    .nav-section p {
+      font-size: 0.75em;    /* Smaller font size */
+      color: #555;          /* Grey color */
+    }
+
+    /* Styles the red "STRATEGIC PLAN" button */
+    .btn-red {
+      background-color: #e74c3c; /* Red background */
+      color: #fff;               /* White text */
+      padding: 1em 2em;          /* Top/Bottom = 1em, Left/Right = 2em */
+      border-radius: 4px;        /* Rounded corners */
+      text-decoration: none;     /* No underline */
+      font-weight: bold;         /* Bold text */
+    }
+
+    /* Styles the horizontal banner for announcements */
+    .banner {
+      background-color: #1565c0; /* Dark blue background */
+      color: white;              /* White text */
+      text-align: center;        /* Centers text horizontally */
+      padding: 0.5em;            /* Padding inside banner */
+      font-weight: bold;         /* Makes text bold */
+    }
+
+    /* Wrapper for main section (video + greetings text) */
+    .main-content {
+      display: flex;        /* Flexbox for side-by-side layout */
+      padding: 1em 10%;     /* 1em top/bottom, 10% left/right */
+      gap: 5em;             /* Space between child elements */
+    }
+
+    /* Section holding the embedded video */
+    .video-container {
+      flex: 1 1 45%;        /* Flexible width: grows/shrinks, base 45% */
+    }
+
+    /* Section holding greetings text */
+    .greetings {
+      flex: 1 1 45%;        /* Flexible width: grows/shrinks, base 45% */
+    }
+
+    /* Styles for the paragraph inside greetings */
+    .greetings p {
+      text-align: justify;  /* Justifies text (aligns left and right) */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar"> <!-- Top bar container -->
+    <ul class="nav-links"> <!-- Unordered list for top navigation -->
+      <li><a href="#">People</a></li>
+      <li><a href="#">Library (Intranet)</a></li>
+      <li><a href="#">Announcement</a></li>
+      <li><a href="#">RUB Policy Documents</a></li>
+      <li><a href="#">Downloads</a></li>
+      <li><a href="#">Help Desk</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="main-nav"> <!-- Main navigation bar with logo + sections -->
+    <div class="logo-container"> <!-- Container for logo -->
+      <img src="https://www.sce.edu.bt/wp-content/uploads/2025/05/SCE-LOGO-EDIT1.png" 
+           alt="SCE Logo" class="logo"> <!-- College logo -->
+    </div>
+
+    <!-- Each nav-section contains link + description -->
+    <div class="nav-section">
+      <a href="#">ABOUT SCE</a>
+      <p>Who we are and what we do</p>
+    </div>
+
+    <div class="nav-section">
+      <a href="#">PROGRAMMES</a>
+      <p>About the programmes we offer</p>
+    </div>
+
+    <div class="nav-section">
+      <a href="#">DEPARTMENTS</a>
+      <p>Our academic departments</p>
+    </div>
+
+    <div class="nav-section">
+      <a href="#">RESEARCH</a>
+      <p>Our research activities & collaborations</p>
+    </div>
+
+    <div class="nav-section">
+      <a href="#">ADMISSION</a>
+      <p>Admission dates and eligibility criteria</p>
+    </div>
+
+    <!-- Special case: red button styled link -->
+    <div class="nav-section">
+      <a href="#" class="btn-red">STRATEGIC PLAN</a>
+    </div>
+  </div>
+<!-- Academic Programme session-->
+ <style>
+       .box{
+        background-color:black;
+        padding: 50px;
+       }
+ </style>
+
+    <div class="box">
+        <h1 style="color:White ;">ACADEMIC PROGRAMMES</h1>
+    </div> 
+   <head>
+ <style>
+   .highlight {
+     color:white;
+     font-weight: bold;
+   }
+ </style>
+</head>
+
+<!--  To add Home and Academic Programmes -->
+  <div class="breadcrumb">
+    <a href="index_1.html">Home</a> &nbsp; › &nbsp; Academic Programmes
+    
+  </div> 
+ <br><br>
+  <br><br>
+ 
+<!-- Programmes section -->
+  <div class="programme-section">
+    <h2 style="color: black;">POSTGRADUATE PROGRAMMES</h2>
+    <ul class="programme-list">
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">M.Ed in Science (Biology/Chemistry/Physics/Mathematics)</a></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">M.Ed in Geography</a></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">M.Ed in English</a></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">Postgraduate Diploma in Education</a></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">Postgraduate Diploma in Contemplative Counselling Psychology</a></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;" a href="#">Postgraduate Certificate in Higher Education (PgCert in HE)</a></li> 
+    </ul>
+
+    <h2 style="color: black;">UNDERGRADUATE PROGRAMMES</h2>
+    <ul class="programme-list">
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;">B.A in Social Work Education <span class="note" style="color: maroon; font-family:Arial;  font-size: 15px;"><i>(No new intake for the programme)</i></span></li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;">B.Ed (S) IT</li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;">B.Ed (S) Arts (English/Geography and English/History)</li>
+      <li style="color:rgb(23, 123, 185);font-family: Arial; font-size: 15px;">B.Ed (S) Science (Biology/Chemistry and Math/Physics)</li>
+    </ul>
+  </div>
+   <br><br>
+   <br><br>
+    <!--footer section -->
+  <style>
+       .box{
+        background-color:black;
+        padding: 20px;
+       }
+ </style>
+
+    <div class="box">
+        <p1 style="color:White ;">Copyright ©Samtse College of Education, 2018</p1>
+    </div> 
+   <head>
+ <style>
+   .highlight {
+     color:white;
+   }
+ </style>
+
+</body>
+</html>
+
+
